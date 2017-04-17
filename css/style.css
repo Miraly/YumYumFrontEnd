@@ -22,13 +22,9 @@ body {
   color: #FCFFEE;
   font-family: "Nunito", sans-serif;
 }
-.navbar-default .img-logo {
-  width: 40px;
-}
 .navbar-default .navbar-header {
   color: #FCFFEE;
   font-family: "Nunito", sans-serif;
-  width: 25%;
 }
 .navbar-default .navbar-nav .nav-li {
   color: #FCFFEE;
@@ -36,7 +32,12 @@ body {
 }
 .navbar-default .navbar-brand {
   color: #FCFFEE;
-  padding: 7px;
+  padding: 4px;
+}
+.navbar-default .navbar-brand .img-logo {
+  width: 45px;
+  padding-bottom: 7px;
+  padding-right: 5px;
 }
 
 /* copy */
