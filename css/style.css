@@ -1,0 +1,114 @@
+/* Sass Document */
+body {
+  background-color: #FCFFEE;
+}
+
+.parallax {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url(../links/home.jpg);
+  min-height: 80%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navbar */
+.navbar-default {
+  background-color: #FF4F00;
+  border: none;
+  border-radius: 0px;
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+}
+.navbar-default .img-logo {
+  width: 40px;
+}
+.navbar-default .navbar-header {
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+  width: 25%;
+}
+.navbar-default .navbar-nav .nav-li {
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+}
+.navbar-default .navbar-brand {
+  color: #FCFFEE;
+  padding: 7px;
+}
+
+/* copy */
+.headline {
+  color: #FCFFEE;
+  font-size: 6em;
+  padding: 8%;
+  font-family: "Nunito", sans-serif;
+}
+
+.text-style {
+  margin: 0 auto;
+  width: 85%;
+  color: #757575;
+  font-family: "Nunito", sans-serif;
+}
+
+.copy-style {
+  margin: 5% auto;
+}
+.copy-style .icon-center {
+  width: 50px;
+  margin: 15px auto;
+}
+.copy-style .icon-center .icon-lg {
+  width: 48px;
+}
+.copy-style .headline-small {
+  color: #FF4F00;
+  font-family: "Nunito", sans-serif;
+  font-size: 3em;
+}
+.copy-style .cicles-style {
+  margin-right: auto;
+  margin-left: auto;
+  width: 55%;
+}
+.copy-style .cicles-style .round {
+  width: 25vh;
+  height: 25vh;
+  border: solid 2px #FF4F00;
+  border-radius: 50%;
+  margin: 15px;
+  padding-top: 10vh;
+  float: left;
+  color: #FF4F00;
+  font-family: "Nunito", sans-serif;
+}
+.copy-style .headline-tiny {
+  color: #757575;
+  font-family: "Nunito", sans-serif;
+  font-size: 20pt;
+  margin: 3%;
+}
+.copy-style .social-icons {
+  width: 170px;
+  margin: 5% auto 0 auto;
+}
+.copy-style .social-icons .icon-lg {
+  width: 48px;
+  float: left;
+  margin: 3px;
+}
+
+hr {
+  border-color: #757575;
+}
+
+/* footer */
+.footer-style {
+  background-color: #424242;
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+  padding: 2vh;
+}
