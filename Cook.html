@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YumYum</title>
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- CSS link -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+		<nav class="navbar navbar-default">
+  			<div class="container"> 
+    			<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      					<a class="navbar-brand" href="#"><span><img src="links/Logo.png" class="image-responsive img-logo">YumYum</span></a>
+      				</div>
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+    				<div class="collapse navbar-collapse" id="defaultNavbar1">
+    
+      					<ul class="nav navbar-nav navbar-right">
+       						 <li><a class="nav-li" data-toggle="modal" data-target="#logIn">Log out</a></li>
+       						 <li><a href="#" class="nav-li">About us</a></li>
+      					</ul>
+   				    </div>
+    		<!-- /.navbar-collapse --> 
+ 		 	</div>
+ 	 	<!-- /.container-fluid --> 
+		</nav>
+
+	<!-- copy --> 
+		<div class="container copy-style">
+			<div class="row">
+				<div class="col-md-4 right-border">
+					<img src="links/cook3.jpg" class="img-responsive profile-img">
+				</div>
+				<div class="col-md-4 right-border">
+					<h3 class="headline-small text-center">Indian Food</h3>
+					<p class="text-center text-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-md-4 text-center contacts-style">
+					<h3 class="headline-small">Contacts</h3>
+					<p>212.6566.6655</p>
+					<p>161 Newkirk St. Jersey City, NJ 07306</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid cook-copy-bg">
+			<div class="row row-margin">
+				<div class="col-md-3 bg">
+					<div class="orders-body">
+							<div class="new-order text-center center-block row-margin-sm">Current orders</div>
+							<ul class="order-style">
+								<li>
+									<h4>John Smith</h4>
+									<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</p>
+									<div class="text-right">
+										<button type="submit" class="btn btn-default">Completed</button>
+									</div>
+								</li>
+								<hr>
+								<li>
+									<h4>John Smith</h4>
+									<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</p>
+									<div class="text-right">
+										<button type="submit" class="btn btn-default">Completed</button>
+									</div>
+								</li>
+							</ul>
+							
+					</div>
+				</div>
+				<div class="col-md-3 bg">
+					<div class="orders-body">
+							<div class="orders text-center center-block row-margin-sm">Past orders</div>
+							<ul class="order-style">
+								<li>
+									<h4>John Smith</h4>
+									<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</p>
+								</li>
+							</ul>
+					</div>
+				</div>
+				<div class="col-md-6 bg">
+					<div class="orders-body">
+							<div class="orders text-center center-block row-margin-sm">Edit menu</div>
+							<div class="order-style">
+								<!-- add dish --> 
+								<form>
+								  <div class="row">
+									  <div class="col-md-6">
+										<label for="itemName">Item</label>
+										<input type="text" class="form-control" id="itemName">
+									  </div>
+									  <div class="col-md-6">
+										<label for="itemPrice">Price</label>
+										<input type="text" class="form-control" id="itemPrice">
+									  </div>
+								  </div>
+								  <div class="row row-margin-sm">
+									  <div class="col-md-12">
+										<label for="itemIng">Ingredients</label>
+										<textarea class="form-control" rows="2" id="itemIng"></textarea>
+									  </div>
+									</div>
+								   <div class="row row-margin-sm">
+									  <div class="text-right">
+										<button type="submit" class="btn btn-default">Add new item</button>
+									  </div>
+									</div>
+								</form>
+								
+								<hr>
+								<div class="table-responsive">
+									<table class="table table-striped table-responsive row-margin-sm">
+									<thead>
+									  <tr>
+										<th>Item</th>
+										<th>Ingredients</th>
+										<th>Price</th>
+										<th>Edit</th>
+										<th>Delete</th>
+									  </tr>
+									</thead>
+									<tbody>
+									  <tr>
+										<td>Chicken Noodle</td>
+										<td>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</td>
+										<td>$3</td>
+										<td>
+											<div class="text-right">
+												<button type="submit" class="btn btn-default">Edit</button>
+											</div>
+								  		</td>
+								  		<td>
+											<div class="text-right">
+												<button type="button" class="btn btn-default">&times;</button>
+											</div>
+								  		</td>
+									  </tr>
+									  <tr>
+										<td>Bourbon Chicken</td>
+										<td>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</td>
+										<td>$9</td>
+										<td>
+											<div class="text-right">
+												<button type="submit" class="btn btn-default">Edit</button>
+											</div>
+								  		</td>
+								  		<td>
+											<div class="text-right">
+												<button type="button" class="btn btn-default">&times;</button>
+											</div>
+								  		</td>
+									  </tr>
+									  <tr>
+										<td>Beer Bread</td>
+										<td>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</td>
+										<td>$7</td>
+										<td>
+											<div class="text-right">
+												<button type="submit" class="btn btn-default">Edit</button>
+											</div>
+								  		</td>
+								  		<td>
+											<div class="text-right">
+												<button type="button" class="btn btn-default">&times;</button>
+											</div>
+								  		</td>
+									  </tr>
+									</tbody>
+								 </table>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<div id="logIn" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+		<div class="col-md-4">
+					<div class="orders-body">
+							<div class="new-order text-center center-block row-margin">New order!</div>
+							<ul class="order-style">
+								<li>
+									<h4>John Smith</h4>
+									<p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</p>
+									<div class="text-right">
+										<button type="submit" class="btn btn-default">Confirm</button>
+									</div>
+								</li>
+							</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+		
+		
+	
+
+
+		
+<div class="row footer-style">
+    <div class="text-center col-md-6 col-md-offset-3">
+      <p>Copyright &copy; 2017 &middot; All Rights Reserved &middot; <a href="http://yourwebsite.com/" >JBool</a></p>
+    </div>
+</div>
+	
+
+</body>
+</html>

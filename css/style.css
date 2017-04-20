@@ -1,6 +1,189 @@
 /* Sass Document */
+/* Sass Document */
+/* navbar */
+.navbar-default {
+  background-color: #ed145b;
+  border: none;
+  border-radius: 0px;
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+}
+.navbar-default .navbar-header {
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+}
+.navbar-default .navbar-nav .nav-li {
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+}
+.navbar-default .navbar-brand {
+  color: #FCFFEE;
+  padding: 4px;
+}
+.navbar-default .navbar-brand .img-logo {
+  width: 45px;
+  padding-bottom: 7px;
+  padding-right: 5px;
+}
+
+/* footer */
+.footer-style {
+  background-color: #424242;
+  font-family: "Nunito", sans-serif;
+  color: #FCFFEE;
+  padding: 2vh;
+}
+
+/* Sass Document */
+/* cook */
+.right-border {
+  border-right: 1px #757575 solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 992px) {
+  .right-border {
+    border-right: none;
+  }
+}
+.right-border .profile-img {
+  margin: 0 10%;
+  box-sizing: border-box;
+  width: 80%;
+  border: 2px #ed145b solid;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.contacts-style {
+  color: #757575;
+  font-family: "Nunito", sans-serif;
+}
+
+.cook-copy-bg {
+  background-image: url(../links/food1.jpg);
+  background-repeat: no-repeat;
+  background-color: #cbf2e6;
+}
+.cook-copy-bg .row-margin {
+  margin: 7vh 0;
+}
+.cook-copy-bg .orders-body {
+  background-color: #FCFFEE;
+  width: 100%;
+  padding-bottom: 10px;
+  color: #757575;
+  font-family: "Nunito", sans-serif;
+}
+.cook-copy-bg .orders-body .new-order {
+  width: 100%;
+  background-color: #ed145b;
+  height: 50px;
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5em;
+  padding: 2%;
+}
+.cook-copy-bg .orders-body .orders {
+  width: 100%;
+  background-color: #757575;
+  height: 50px;
+  color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5em;
+  padding: 2%;
+}
+.cook-copy-bg .orders-body .order-style {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+}
+.cook-copy-bg .orders-body .order-style .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 1em;
+  border-radius: 0px;
+  margin-right: 10px;
+}
+.cook-copy-bg .orders-body .order-style .btn-default {
+  color: #FCFFEE;
+  background-color: #ed145b;
+  border-color: #ed145b;
+}
+
+.row-margin-sm {
+  margin-top: 15px;
+}
+
+.table {
+  color: #757575;
+  font-family: "Nunito", sans-serif;
+}
+
+td {
+  padding: 8px;
+  line-height: 1;
+  vertical-align: top;
+  border-top: 1px solid #757575;
+}
+
+th {
+  padding: 8px;
+  line-height: 1;
+  vertical-align: top;
+  border-top: 1px solid #757575;
+}
+
+/*Modal style */
+.modal .modal-dialog {
+  width: 400px;
+  max-width: 80%;
+}
+.modal .modal-dialog .modal-content {
+  border: none;
+  border-radius: 0px;
+  background-color: #FCFFEE;
+  color: #757575;
+  font-family: "Nunito", sans-serif;
+}
+.modal .modal-dialog .modal-content .modal-header {
+  color: #ed145b;
+  border-bottom: 1px solid #ed145b;
+}
+.modal .modal-dialog .modal-content .modal-body .form-group .form-control {
+  background-color: #FCFFEE;
+  border: #757575 1px solid;
+  border-radius: 0px;
+}
+.modal .modal-dialog .modal-content .modal-footer {
+  border-top: 1px solid #ed145b;
+}
+.modal .modal-dialog .modal-content .modal-footer .btn-default {
+  color: #FCFFEE;
+  background-color: #ed145b;
+  border-color: #ed145b;
+}
+.modal .modal-dialog .modal-content .modal-footer .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 1em;
+  border-radius: 0px;
+}
+
+a[href] input[type='submit'] input[type='image'] label[for] select button .pointer {
+  cursor: pointer;
+}
+
 body {
   background-color: #FCFFEE;
+  overflow-x: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .parallax {
@@ -14,42 +197,17 @@ body {
   background-size: cover;
 }
 
-/* navbar */
-.navbar-default {
-  background-color: #FF4F00;
-  border: none;
-  border-radius: 0px;
-  color: #FCFFEE;
-  font-family: "Nunito", sans-serif;
-}
-.navbar-default .navbar-header {
-  color: #FCFFEE;
-  font-family: "Nunito", sans-serif;
-}
-.navbar-default .navbar-nav .nav-li {
-  color: #FCFFEE;
-  font-family: "Nunito", sans-serif;
-}
-.navbar-default .navbar-brand {
-  color: #FCFFEE;
-  padding: 4px;
-}
-.navbar-default .navbar-brand .img-logo {
-  width: 45px;
-  padding-bottom: 7px;
-  padding-right: 5px;
-}
-
 /* copy */
 .headline {
   color: #FCFFEE;
+  font-family: "Nunito", sans-serif;
   font-size: 6em;
   padding: 8%;
-  font-family: "Nunito", sans-serif;
 }
 
 .text-style {
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
   width: 85%;
   color: #757575;
   font-family: "Nunito", sans-serif;
@@ -66,24 +224,29 @@ body {
   width: 48px;
 }
 .copy-style .headline-small {
-  color: #FF4F00;
+  color: #ed145b;
   font-family: "Nunito", sans-serif;
   font-size: 3em;
 }
-.copy-style .cicles-style {
-  margin-right: auto;
-  margin-left: auto;
-  width: 55%;
+.copy-style .circles-style {
+  display: flex;
+  justify-content: center;
 }
-.copy-style .cicles-style .round {
+@media screen and (max-width: 768px) {
+  .copy-style .circles-style {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+.copy-style .circles-style .round {
+  align-self: center;
   width: 25vh;
   height: 25vh;
-  border: solid 2px #FF4F00;
+  border: solid 2px #ed145b;
   border-radius: 50%;
   margin: 15px;
   padding-top: 10vh;
-  float: left;
-  color: #FF4F00;
+  color: #ed145b;
   font-family: "Nunito", sans-serif;
 }
 .copy-style .headline-tiny {
@@ -104,12 +267,4 @@ body {
 
 hr {
   border-color: #757575;
-}
-
-/* footer */
-.footer-style {
-  background-color: #424242;
-  color: #FCFFEE;
-  font-family: "Nunito", sans-serif;
-  padding: 2vh;
 }
